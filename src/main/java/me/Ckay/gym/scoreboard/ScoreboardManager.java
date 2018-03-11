@@ -46,10 +46,10 @@ public class ScoreboardManager
 			.build();
 
 		gym1 = obj.getOrCreateScore(Text.of(TextSerializers.FORMATTING_CODE.deserialize(plugin.getConfig().getString("config.gym1colour"))
-			.getChildren().get(0).getColor(), plugin.getConfig().getString("config.gym1")));
+			.getChildren().get(1).getColor(), plugin.getConfig().getString("config.gym1")));
 
 		gym2 = obj.getOrCreateScore(Text.of(TextSerializers.FORMATTING_CODE.deserialize(plugin.getConfig().getString("config.gym2colour"))
-			.getChildren().get(0).getColor(), plugin.getConfig().getString("config.gym2") + " "));
+			.getChildren().get(1).getColor(), plugin.getConfig().getString("config.gym2") + " "));
 
 		gym3 = obj.getOrCreateScore(Text.of(TextSerializers.FORMATTING_CODE.deserialize(plugin.getConfig().getString("config.gym3colour")).getChildren().get(0).getColor(), plugin.getConfig().getString("config.gym3")));
 		gym4 = obj.getOrCreateScore(Text.of(TextSerializers.FORMATTING_CODE.deserialize(plugin.getConfig().getString("config.gym4colour")).getChildren().get(0).getColor(), plugin.getConfig().getString("config.gym4")));
