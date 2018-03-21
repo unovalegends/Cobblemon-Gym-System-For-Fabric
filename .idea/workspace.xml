@@ -3,14 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e48cb3a3-15ee-4604-bd9d-a158c1a0caae" name="Default" comment="IntelliJ setup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/Ckay/gym/PixelGym.java" afterPath="$PROJECT_DIR$/src/main/java/me/Ckay/gym/PixelGym.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/Ckay/gym/SignListener.java" afterPath="$PROJECT_DIR$/src/main/java/me/Ckay/gym/SignListener.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/Ckay/gym/commands/CommandListener.java" afterPath="$PROJECT_DIR$/src/main/java/me/Ckay/gym/commands/CommandListener.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/Ckay/gym/commands/PixelGymAdminCommand.java" afterPath="$PROJECT_DIR$/src/main/java/me/Ckay/gym/commands/PixelGymAdminCommand.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/Ckay/gym/config/PluginConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/me/Ckay/gym/config/PluginConfiguration.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/Ckay/gym/config/SettingsManager.java" afterPath="$PROJECT_DIR$/src/main/java/me/Ckay/gym/config/SettingsManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/Ckay/gym/scoreboard/ScoreboardManager.java" afterPath="$PROJECT_DIR$/src/main/java/me/Ckay/gym/scoreboard/ScoreboardManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/Ckay/gym/utils/Utils.java" afterPath="$PROJECT_DIR$/src/main/java/me/Ckay/gym/utils/Utils.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -66,15 +62,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PixelGym.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PixelGym.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/Ckay/gym/PixelGym.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="637" column="105" lean-forward="false" selection-start-line="637" selection-start-column="105" selection-end-line="637" selection-end-column="105" />
+            <state relative-caret-position="68">
+              <caret line="54" column="61" lean-forward="false" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
               <folding>
-                <element signature="e#5548#5549#0" expanded="true" />
-                <element signature="e#5577#5578#0" expanded="true" />
+                <element signature="e#5546#5547#0" expanded="true" />
+                <element signature="e#5575#5576#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradle.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="72" column="92" lean-forward="false" selection-start-line="72" selection-start-column="92" selection-end-line="72" selection-end-column="92" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PixelGymAdminCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/Ckay/gym/commands/PixelGymAdminCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6371">
+              <caret line="398" column="94" lean-forward="false" selection-start-line="398" selection-start-column="94" selection-end-line="398" selection-end-column="94" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,8 +118,8 @@
       <file leaf-file-name="ScoreboardManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/Ckay/gym/scoreboard/ScoreboardManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5202">
-              <caret line="322" column="156" lean-forward="false" selection-start-line="322" selection-start-column="156" selection-end-line="322" selection-end-column="156" />
+            <state relative-caret-position="87">
+              <caret line="288" column="138" lean-forward="false" selection-start-line="288" selection-start-column="138" selection-end-line="288" selection-end-column="158" />
               <folding />
             </state>
           </provider>
@@ -102,8 +128,8 @@
       <file leaf-file-name="CommandListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/Ckay/gym/commands/CommandListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39848">
-              <caret line="2385" column="272" lean-forward="false" selection-start-line="2385" selection-start-column="272" selection-end-line="2385" selection-end-column="272" />
+            <state relative-caret-position="-3309">
+              <caret line="871" column="46" lean-forward="false" selection-start-line="871" selection-start-column="46" selection-end-line="871" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -117,6 +143,7 @@
       <find>.getColor()</find>
       <find>.getChildren().get(0).getColor()</find>
       <find>).getColor()</find>
+      <find>win</find>
     </findStrings>
     <replaceStrings>
       <replace>.getColor()</replace>
@@ -441,9 +468,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4560923225193" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3428344088" />
-        <entry key="$PROJECT_DIR$/gradle.properties" value="2653692989" />
+        <entry key="$PROJECT_DIR$" value="4564084288157" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1705433875" />
+        <entry key="$PROJECT_DIR$/gradle.properties" value="560110532" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="3486642065" />
       </map>
     </option>
@@ -658,10 +685,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/me/Ckay/gym/commands/CommandListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/Ckay/gym/scoreboard/ScoreboardManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/Ckay/gym/commands/PixelGymAdminCommand.java" />
+        <option value="$PROJECT_DIR$/gradle.properties" />
         <option value="$PROJECT_DIR$/src/main/java/me/Ckay/gym/PixelGym.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -691,8 +720,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -1073,7 +1102,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="752" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
@@ -1087,8 +1115,9 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.49520257" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20877458" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20499243" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2118003" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.49621928" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20499243" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1101,7 +1130,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.49621928" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.48720682" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1160,8 +1188,43 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5548#5549#0" expanded="true" />
-            <element signature="e#5577#5578#0" expanded="true" />
+            <element signature="e#5546#5547#0" expanded="true" />
+            <element signature="e#5575#5576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/Ckay/gym/scoreboard/ScoreboardManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5474">
+          <caret line="322" column="156" lean-forward="false" selection-start-line="322" selection-start-column="156" selection-end-line="322" selection-end-column="156" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/Ckay/gym/commands/CommandListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40545">
+          <caret line="2385" column="272" lean-forward="false" selection-start-line="2385" selection-start-column="272" selection-end-line="2385" selection-end-column="272" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/Ckay/gym/config/PluginConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/Ckay/gym/PixelGym.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#5546#5547#0" expanded="true" />
+            <element signature="e#5575#5576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1195,8 +1258,8 @@
         <state relative-caret-position="3383">
           <caret line="199" column="16" lean-forward="false" selection-start-line="199" selection-start-column="16" selection-end-line="199" selection-end-column="16" />
           <folding>
-            <element signature="e#5548#5549#0" expanded="true" />
-            <element signature="e#5577#5578#0" expanded="true" />
+            <element signature="e#5546#5547#0" expanded="true" />
+            <element signature="e#5575#5576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1214,8 +1277,8 @@
         <state relative-caret-position="3383">
           <caret line="199" column="16" lean-forward="false" selection-start-line="199" selection-start-column="16" selection-end-line="199" selection-end-column="16" />
           <folding>
-            <element signature="e#5548#5549#0" expanded="true" />
-            <element signature="e#5577#5578#0" expanded="true" />
+            <element signature="e#5546#5547#0" expanded="true" />
+            <element signature="e#5575#5576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1240,8 +1303,8 @@
         <state relative-caret-position="2023">
           <caret line="199" column="16" lean-forward="false" selection-start-line="199" selection-start-column="16" selection-end-line="199" selection-end-column="16" />
           <folding>
-            <element signature="e#5548#5549#0" expanded="true" />
-            <element signature="e#5577#5578#0" expanded="true" />
+            <element signature="e#5546#5547#0" expanded="true" />
+            <element signature="e#5575#5576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1266,8 +1329,8 @@
         <state relative-caret-position="1071">
           <caret line="63" column="63" lean-forward="false" selection-start-line="63" selection-start-column="63" selection-end-line="63" selection-end-column="63" />
           <folding>
-            <element signature="e#5548#5549#0" expanded="true" />
-            <element signature="e#5577#5578#0" expanded="true" />
+            <element signature="e#5546#5547#0" expanded="true" />
+            <element signature="e#5575#5576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1285,8 +1348,8 @@
         <state relative-caret-position="6052">
           <caret line="356" column="77" lean-forward="false" selection-start-line="356" selection-start-column="77" selection-end-line="356" selection-end-column="77" />
           <folding>
-            <element signature="e#5548#5549#0" expanded="true" />
-            <element signature="e#5577#5578#0" expanded="true" />
+            <element signature="e#5546#5547#0" expanded="true" />
+            <element signature="e#5575#5576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1312,8 +1375,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5548#5549#0" expanded="true" />
-            <element signature="e#5577#5578#0" expanded="true" />
+            <element signature="e#5546#5547#0" expanded="true" />
+            <element signature="e#5575#5576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1323,8 +1386,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5548#5549#0" expanded="true" />
-            <element signature="e#5577#5578#0" expanded="true" />
+            <element signature="e#5546#5547#0" expanded="true" />
+            <element signature="e#5575#5576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1334,8 +1397,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5548#5549#0" expanded="true" />
-            <element signature="e#5577#5578#0" expanded="true" />
+            <element signature="e#5546#5547#0" expanded="true" />
+            <element signature="e#5575#5576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1345,8 +1408,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5548#5549#0" expanded="true" />
-            <element signature="e#5577#5578#0" expanded="true" />
+            <element signature="e#5546#5547#0" expanded="true" />
+            <element signature="e#5575#5576#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1355,37 +1418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1314">
-          <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/Ckay/gym/commands/CommandListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39848">
-          <caret line="2385" column="272" lean-forward="false" selection-start-line="2385" selection-start-column="272" selection-end-line="2385" selection-end-column="272" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/Ckay/gym/scoreboard/ScoreboardManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5202">
-          <caret line="322" column="156" lean-forward="false" selection-start-line="322" selection-start-column="156" selection-end-line="322" selection-end-column="156" />
           <folding />
         </state>
       </provider>
@@ -1398,14 +1430,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/Ckay/gym/scoreboard/ScoreboardManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="288" column="138" lean-forward="false" selection-start-line="288" selection-start-column="138" selection-end-line="288" selection-end-column="158" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/Ckay/gym/commands/PixelGymAdminCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6371">
+          <caret line="398" column="94" lean-forward="false" selection-start-line="398" selection-start-column="94" selection-end-line="398" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/Ckay/gym/commands/CommandListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3309">
+          <caret line="871" column="46" lean-forward="false" selection-start-line="871" selection-start-column="46" selection-end-line="871" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/Ckay/gym/PixelGym.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="637" column="105" lean-forward="false" selection-start-line="637" selection-start-column="105" selection-end-line="637" selection-end-column="105" />
+        <state relative-caret-position="68">
+          <caret line="54" column="61" lean-forward="false" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
           <folding>
-            <element signature="e#5548#5549#0" expanded="true" />
-            <element signature="e#5577#5578#0" expanded="true" />
+            <element signature="e#5546#5547#0" expanded="true" />
+            <element signature="e#5575#5576#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="72" column="92" lean-forward="false" selection-start-line="72" selection-start-column="92" selection-end-line="72" selection-end-column="92" />
+          <folding />
         </state>
       </provider>
     </entry>

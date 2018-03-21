@@ -2,7 +2,8 @@
     {
         "modid": "pixelgym",
         "name": "PixelmonGym",
-        "version": "2.5",
+        "version": "2.6",
+        "description": "...",
         "dependencies": [
             "spongeapi@7.1.0-SNAPSHOT"
         ],
