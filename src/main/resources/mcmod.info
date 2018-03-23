@@ -1,14 +1,14 @@
 [
-    {
-        "modid": "pixelgym",
-        "name": "PixelmonGym",
-        "version": "2.6",
-        "description": "...",
-        "dependencies": [
-            "spongeapi@7.1.0-SNAPSHOT"
-        ],
-        "requiredMods": [
-            "spongeapi@7.1.0-SNAPSHOT"
-        ]
-    }
+  {
+    "modid": "pixelgym",
+    "name": "PixelmonGym",
+    "version": "2.7",
+    "description": "...",
+    "dependencies": [
+      "spongeapi@7.1.0-SNAPSHOT"
+    ],
+    "requiredMods": [
+      "spongeapi@7.1.0-SNAPSHOT"
+    ]
+  }
 ]

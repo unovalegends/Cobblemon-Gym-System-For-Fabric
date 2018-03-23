@@ -504,10 +504,7 @@ public class CommandListener {
 
                                 p.sendMessage(Text.of(TextColors.GREEN, "Added to queue: ", TextColors.YELLOW, TextStyles.BOLD, gym, TextColors.BLACK, " (", TextSerializers.FORMATTING_CODE.deserialize(new StringBuilder(String.valueOf(this.plugin.getConfig().getString(new StringBuilder("config.gym")
                                         .append(gym).append("colour").toString())))
-                                        .toString())
-                                        .getChildren()
-                                        .get(0)
-                                        .getColor(), TextStyles.BOLD, this.plugin.getConfig().getString(new StringBuilder("config.gym").append(gym).toString()), TextColors.BLACK, ")"));
+                                        .toString() + "TEXT").getColor(), TextStyles.BOLD, this.plugin.getConfig().getString(new StringBuilder("config.gym").append(gym).toString()), TextColors.BLACK, ")"));
                                 p.sendMessage(Text.of(TextColors.GOLD, "You are in position " + ((List) this.plugin.queues.get(Integer.valueOf(gym))).size() + " for the " + getConfig().getString(new StringBuilder("config.gym").append(gym).toString()) + " Gym"));
                                 p.sendMessage(Text.of(TextColors.GREEN, "Notified gym leaders of gym" + gym, TextColors.BLACK, " (", TextSerializers.FORMATTING_CODE.deserialize(this.plugin.getConfig().getString(new StringBuilder("config.gym").append(gym).append("colour").toString()) + "TEXT").getColor(), TextStyles.BOLD, this.plugin.getConfig().getString(new StringBuilder("config.gym").append(gym).toString()), TextColors.BLACK, ")", TextColors.GREEN, " that you are waiting to be battled!"));
 
@@ -1651,6 +1648,7 @@ public class CommandListener {
 
             int u;
 
+            //gym win
             if ((args[0].equalsIgnoreCase("winner")) || (args[0].equalsIgnoreCase("win")) || (args[0].equalsIgnoreCase("w"))) {
 
                 boolean gymName = false;
@@ -1696,35 +1694,6 @@ public class CommandListener {
                         if ((p.hasPermission("pixelgym.gym" + gym)) || (p.hasPermission("pixelgym.admin"))) {
                             Player o = playerWinner;
                             UUID po = playerWinner.getUniqueId();
-//START cooldown
-                            int gym3 = gym + 1;
-                            int time = Integer.parseInt(this.plugin.getConfig().getString("config.gym" + gym3 + "cooldowntime"));
-                            ((Map) this.plugin.cooldownTime.get(Integer.valueOf(gym3))).put(po, Integer.valueOf(time));
-                            // get time from config and put it in cooldownTime
-
-                            ((List) this.plugin.cooldownGym.get(Integer.valueOf(gym))).add(po);
-                            // put player in cooldown
-
-                            this.plugin.cooldownTask.get(Integer.valueOf(gym)).put(po, Sponge.getScheduler().createTaskBuilder().execute(() -> {
-                                // run cooldown task
-                                if (this.plugin.cooldownGym.get(gym3).contains(po)) {
-                                    // if player is in the cooldown, continue. Else cancel.
-                                    this.plugin.cooldownTime.get(gym3).put(po, this.plugin.cooldownTime.get(gym3).get(po) - 1);
-                                    // each run, take 1 from time
-
-                                    if (this.plugin.cooldownTime.get(gym3).get(po) == 0) {
-                                        // if time runs out (equals 0)
-                                        this.plugin.cooldownTime.get(gym3).remove(po);
-                                        this.plugin.cooldownTask.get(gym3).remove(po);
-                                        this.plugin.cooldownGym.get(gym3).remove(po);
-
-                                        //Sponge.getScheduler().getTasksByName(String.valueOf(gym3)).forEach(t -> t.cancel());
-                                    }
-                                } else {
-                                    //Sponge.getScheduler().getTasksByName(String.valueOf(gym3)).forEach(t -> t.cancel());
-                                }
-                            }).name(String.valueOf(gym)));
-                            ((Task.Builder) ((Map) this.plugin.cooldownTask.get(Integer.valueOf(gym))).get(po)).delayTicks(20L).intervalTicks(1200L).submit(PixelGym.getInstance());
 
                             if (((List) this.plugin.queues.get(Integer.valueOf(gym))).contains(o.getUniqueId())) {
 
@@ -1834,6 +1803,34 @@ public class CommandListener {
                                 MessageChannel.TO_ALL.send(Text.of(TextColors.DARK_GRAY, "[", TextColors.AQUA, getConfig().getString("config.title"), TextColors.DARK_GRAY, "] ", TextColors.YELLOW, playerWinner.getName(), TextSerializers.FORMATTING_CODE.deserialize(getConfig().getString(new StringBuilder("config.gym")
                                         .append(gym)
                                         .append("colour").toString())), " has won the " + getConfig().getString(new StringBuilder("config.gym").append(gym).toString()) + " Gym Badge!"));
+
+                                if (this.plugin.cooldownTime.get(gym).containsKey(po)) {
+                                    this.plugin.cooldownTime.get(gym).remove(po);
+                                }
+
+                                if (this.plugin.cooldownTask.get(gym).containsKey(po)) {
+                                    this.plugin.cooldownTask.get(gym).remove(po);
+                                }
+
+                                if (this.plugin.cooldownGym.get(gym).contains(po)) {
+                                    this.plugin.cooldownGym.get(gym).remove(po);
+                                }
+
+                                if (this.plugin.cooldownGym.containsKey((gym + 1))) {
+                                    if (this.plugin.cooldownTime.get((gym + 1)).containsKey(po)) {
+                                        this.plugin.cooldownTime.get((gym + 1)).remove(po);
+                                    }
+
+                                    if (this.plugin.cooldownTask.get((gym + 1)).containsKey(po)) {
+                                        this.plugin.cooldownTask.get((gym + 1)).remove(po);
+                                    }
+
+                                    if (this.plugin.cooldownGym.get((gym + 1)).contains(po)) {
+                                        this.plugin.cooldownGym.get((gym + 1)).remove(po);
+                                    }
+                                }
+
+
                             } else {
                                 p.sendMessage(Text.of(TextColors.RED, "Player must be in the queue to win or lose!"));
                             }

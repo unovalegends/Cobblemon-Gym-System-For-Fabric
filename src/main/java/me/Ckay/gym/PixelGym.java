@@ -52,7 +52,7 @@ import java.nio.file.Path;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-@Plugin(id = "pixelgym", name = "PixelmonGym", version = "2.6")
+@Plugin(id = "pixelgym", name = "PixelmonGym", version = "2.7")
 public class PixelGym {
     public static Inventory inventory;
     public static Map<String, Inventory> myInventories = Maps.newHashMap();
