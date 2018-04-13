@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e48cb3a3-15ee-4604-bd9d-a158c1a0caae" name="Default" comment="IntelliJ setup">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PixelGym.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/Ckay/gym/PixelGym.java" afterPath="$PROJECT_DIR$/src/main/java/me/Ckay/gym/PixelGym.java" />
-    </list>
+    <list default="true" id="e48cb3a3-15ee-4604-bd9d-a158c1a0caae" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -931,7 +925,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520769495706</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Pushed">
+      <created>1520887085379</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1520887085379</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -982,7 +983,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="IntelliJ setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="IntelliJ setup" />
+    <MESSAGE value="Pushed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pushed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
