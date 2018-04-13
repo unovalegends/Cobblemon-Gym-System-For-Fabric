@@ -61,7 +61,7 @@ dependencies {
 
 processResources {
     // this will ensure that this task is redone when the versions change.
-    inputs.property "version", version
+    inputs.property "version", "${getProjectProperty('m_major')}.${getProjectProperty('m_minor')}"
     inputs.property "mcversion", getProjectProperty('minecraft_version')
     inputs.property "modid", getProjectProperty('m_id')
     inputs.property "description", getProjectProperty('m_description')
@@ -70,7 +70,7 @@ processResources {
         include "mcmod.info"
 
         // replace version and mcversion
-        expand 'version': project.version, 'mcversion': getProjectProperty('minecraft_version')
+        expand 'version': "${getProjectProperty('m_major')}.${getProjectProperty('m_minor')}", 'mcversion': getProjectProperty('minecraft_version')
     }
 
     // copy everything else, thats not the mcmod.info
