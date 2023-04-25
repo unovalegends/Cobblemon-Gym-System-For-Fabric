@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "starter.Ckay.gym.scoreboard",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": ["ScoreboardManager"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

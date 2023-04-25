@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "starter",
+  "version": "${version}",
+  "name": "Unova Legends Gym - Cobble Mod",
+  "description": "Shardash's version of Ckay's Gym",
+  "authors": ["Shardash, Ckay"],
+  "contact": {
+    "homepage": "https://www.unovalegends.net/",
+    "sources": "https://github.com/unovalegends/Cobblemon-Gym-System-For-Fabric"
+  },
+  "license": "MIT",
+  "icon": "",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["starter/Ckay/gym/PlasmaGym.java"]
+  },
+  "mixins": ["starter.mixins.json"],
+  "depends": {
+    "fabric-loader": ">=0.14.17",
+    "minecraft": "1.19.x",    
+    "fabric-api": ">=0.76.0+1.19.2",
+    "fabric-permissions-api-v0": "*",
+    "snakeyaml":"2.0",
+    "guice":"5.1.0"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
